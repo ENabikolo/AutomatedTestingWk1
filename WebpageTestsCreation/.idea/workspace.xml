@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae51b15a-7430-44c7-920c-17c9fabd2ca6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Dragable.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AutomatedTestingWk1" afterPath="$PROJECT_DIR$/../AutomatedTestingWk1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebpageTestsCreation.iml" afterPath="$PROJECT_DIR$/WebpageTestsCreation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BaseHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/BaseHomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Selectable.java" afterPath="$PROJECT_DIR$/src/test/java/Selectable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Slider.java" afterPath="$PROJECT_DIR$/src/test/java/Slider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WebPageFunctionalityTest.java" afterPath="$PROJECT_DIR$/src/test/java/WebPageFunctionalityTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -454,8 +447,16 @@
       <updated>1511883967579</updated>
       <workItem from="1511883973448" duration="7791000" />
       <workItem from="1511946116351" duration="26089000" />
-      <workItem from="1511975865033" duration="240000" />
+      <workItem from="1511975865033" duration="346000" />
     </task>
+    <task id="LOCAL-00001" summary="TBCompleted">
+      <created>1511976136703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511976136703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -491,7 +492,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34120000" />
+    <option name="totallyTimeSpent" value="34226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -559,6 +560,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TBCompleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="TBCompleted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
