@@ -17,8 +17,6 @@ public class WebPageFunctionalityTest {
     private List<String> urlList = new ArrayList<>();
     String draggableBoxInitialLocation;
     String constrainMovementVerticallyLoc;
-    int x;
-    int y;
 
     @BeforeClass
     public static void init() {
@@ -58,14 +56,13 @@ public class WebPageFunctionalityTest {
         verticalBox.setConstrainMovementVertically(0, 120, webDriver);
         //assertEquals("Aint moving Nowhere Boo!", verticalBox.setConstrainMovement(location.x, location.y, webDriver), verticalBox.constrainMovementVertically(webDriver));
         Assert.assertNotEquals("Moving Vertically Baby!", verticalBox.constrainMovementVertically, verticalBox.constrainMovementVertically.getLocation());
-
         }
 
         //verticalmovement
         //Draggable verticalMove =
        /* draggable.setConstrainMovement(webDriver);
        ;*/
-    }
+
 
     @Test
      public void testSelectable () {
@@ -94,8 +91,8 @@ public class WebPageFunctionalityTest {
         public void testSlider () {
             webDriver.navigate().to(urlList.get(4));
             Slider slider = PageFactory.initElements(webDriver, Slider.class);
-            Point sliderLocation = getCenter(slider);
-            webDriver.swipe(sliderLocation.getX(), sliderLocation.getY(), sliderLocation.getX()-100, sliderLocation.getY(), 1000);
+            //Point sliderLocation = getCenter(slider);
+            //webDriver.swipe(sliderLocation.getX(), sliderLocation.getY(), sliderLocation.getX()-100, sliderLocation.getY(), 1000);
             assertEquals("Slide to the left!!", urlList.get(4), slider.getCurrentPage(webDriver));
 
         }
